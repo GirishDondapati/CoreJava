@@ -2,6 +2,8 @@ package com.girish.zoho;
 /*
  * Second round written program
  * 
+ * https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/
+ * 
  Find the first circular tour that visits all petrol pumps
 	Suppose there is a circle. There are n petrol pumps on that circle. You are given two sets of data.
 		1. The amount of petrol that every petrol pump has.
