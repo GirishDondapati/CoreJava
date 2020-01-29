@@ -1,5 +1,7 @@
 package com.girish.hackerrank;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 /**
@@ -101,7 +103,27 @@ public class BarclaysWrittenProgram {
 		bagOfNotes.display();
 	}
 }
-
+class Bag<E>
+{
+	List allList = new ArrayList();
+	public void add(Object obj)
+	{
+		allList.add(obj);
+	}
+	
+	public void display()
+	{
+		for(int i = 0; i < allList.size(); i++)
+		{
+			Object obj = allList.get(i);
+			if(obj instanceof Coin)
+				System.out.println(((Coin) obj).getValue());
+			if(obj instanceof Note)
+				System.out.println(((Note) obj).getValue());
+			
+		}
+	}
+}
 class Coin
 {
 	private int val;
