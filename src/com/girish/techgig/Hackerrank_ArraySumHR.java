@@ -18,11 +18,9 @@ public class Hackerrank_ArraySumHR {
              sum = sum + ar[i];
          }
          return sum;
-
     }
 
     private static final Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args) throws IOException {
      //   BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
         System.out.println(System.getenv("OUTPUT_PATH"));
