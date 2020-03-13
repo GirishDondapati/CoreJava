@@ -109,19 +109,18 @@ class KinetixStackTask {
               }
             } 
         }); 
-        System.out.println("---------------------------------------");
         pushThread.start();
-        System.out.println("---------------------------------------");
         popThread.start();
         
         System.out.println("---------------------------------------");
-        try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
         
-        pushThread.interrupt();
-        popThread.interrupt();
+        int i = 0;
+        while(i > 5)
+        {
+        	i++;
+        	
+        }
+        
+        
     } 
 } 
