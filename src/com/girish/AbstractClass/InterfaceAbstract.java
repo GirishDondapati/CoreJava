@@ -38,6 +38,7 @@ public class InterfaceAbstract extends M
 		oa.c();
 		oa.d();
 		System.out.println("Very Nice");
+		System.out.println("Very Nice2");
 		
 	}
 	
