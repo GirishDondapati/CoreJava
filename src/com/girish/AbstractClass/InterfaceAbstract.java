@@ -39,6 +39,7 @@ public class InterfaceAbstract extends M
 		oa.d();
 		System.out.println("Very Nice");
 		System.out.println("Very Nice2");
+		System.out.println("Commit 3 checking");
 		
 	}
 	
